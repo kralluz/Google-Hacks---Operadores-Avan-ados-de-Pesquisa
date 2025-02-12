@@ -1,127 +1,80 @@
-# Google Hacks - Operadores Avançados de Pesquisa
+# Atalhos para Navegadores Chromium & Dicas de Pesquisa no Google
 
-## Introdução
+## Objetivo  
+Centralizar **atalhos de teclado para navegadores baseados no Chromium** (Chrome, Brave, Edge, Opera, etc.) e incluir dicas rápidas de operadores avançados do Google para otimizar pesquisas.
 
-Este documento contém uma lista de operadores avançados de pesquisa do Google que podem ser usados para refinar os resultados e encontrar informações específicas com mais eficiência.
+---
 
-## Lista de Operadores
+## 🌐 Navegadores Chromium: Atalhos Essenciais
 
-### 1. Pesquisa Exata
-- **Uso:** `"palavra ou frase"`
-- **Exemplo:** `"desenvolvimento web"`
-- **Descrição:** Retorna resultados que contêm exatamente a frase entre aspas.
+### 🔍 **Atalhos Gerais**  
+| Ação                          | Windows/Linux       | Mac                 |
+|-------------------------------|---------------------|---------------------|
+| Abrir nova guia               | `Ctrl + T`          | `Cmd + T`           |
+| Fechar guia atual             | `Ctrl + W`          | `Cmd + W`           |
+| Reabrir última guia fechada   | `Ctrl + Shift + T`  | `Cmd + Shift + T`   |
+| Alternar entre guias          | `Ctrl + Tab`        | `Cmd + Option + →`  |
+| Ir para a barra de endereço   | `Ctrl + L`          | `Cmd + L`           |
 
-### 2. Exclusão de Termos
-- **Uso:** `termo -excluido`
-- **Exemplo:** `desenvolvimento -frontend`
-- **Descrição:** Exclui resultados que contenham a palavra após o hífen.
+### 🛠️ **Navegação e Ferramentas**  
+| Ação                          | Windows/Linux       | Mac                 |
+|-------------------------------|---------------------|---------------------|
+| Recarregar a página           | `Ctrl + R`          | `Cmd + R`           |
+| Recarregar (ignorar cache)    | `Ctrl + Shift + R`  | `Cmd + Shift + R`   |
+| Abrir modo anônimo            | `Ctrl + Shift + N`  | `Cmd + Shift + N`   |
+| Abrir Ferramentas do Dev      | `Ctrl + Shift + J`  | `Cmd + Option + I`  |
+| Pesquisar na página           | `Ctrl + F`          | `Cmd + F`           |
 
-### 3. Curinga (*)
-- **Uso:** `palavra * palavra`
-- **Exemplo:** `desenvolvimento * stack`
-- **Descrição:** Substitui uma palavra desconhecida ou variável na pesquisa.
+### ⚡ **Produtividade**  
+| Ação                          | Windows/Linux       | Mac                 |
+|-------------------------------|---------------------|---------------------|
+| Salvar página como favorito   | `Ctrl + D`          | `Cmd + D`           |
+| Abrir histórico               | `Ctrl + H`          | `Cmd + Y`           |
+| Abrir downloads               | `Ctrl + J`          | `Cmd + Shift + J`   |
+| Zoom in/out                   | `Ctrl + +/-`        | `Cmd + +/-`         |
 
-### 4. OU lógico
-- **Uso:** `termo1 OR termo2`
-- **Exemplo:** `desenvolvimento OR programação`
-- **Descrição:** Retorna resultados que contenham qualquer um dos termos especificados.
+---
 
-### 5. E lógico
-- **Uso:** `termo1 AND termo2`
-- **Exemplo:** `desenvolvimento AND backend`
-- **Descrição:** Retorna resultados que contêm ambos os termos obrigatoriamente.
+## 🔎 Dicas de Pesquisa no Google (Operadores Avançados)
 
-### 6. Pesquisa em Site Específico
-- **Uso:** `site:dominio.com termo`
-- **Exemplo:** `site:github.com kralluz`
-- **Descrição:** Limita a pesquisa a um site específico.
+### 📌 **Filtrar Resultados**  
+| Operador                     | Exemplo                      | Descrição                          |
+|------------------------------|------------------------------|------------------------------------|
+| `"frase exata"`              | `"CSS Grid"`                 | Busca pela frase exata.           |
+| `site:dominio.com`           | `site:wikipedia.org AI`      | Restringe a um site.              |
+| `termo1 OR termo2`           | `Python OR JavaScript`       | Resultados com um ou outro termo. |
+| `filetype:pdf`               | `filetype:pdf SEO`           | Busca por arquivos específicos.   |
+| `antes:ano` / `depois:ano`   | `NFT depois:2021`            | Filtra por data.                  |
 
-### 7. Pesquisa por Tipo de Arquivo
-- **Uso:** `filetype:extensão termo`
-- **Exemplo:** `filetype:pdf tutorial de desenvolvimento web`
-- **Descrição:** Retorna arquivos do tipo especificado.
+### 💡 **Busca Avançada**  
+| Operador                     | Exemplo                      | Uso                              |
+|------------------------------|------------------------------|----------------------------------|
+| `intitle:palavra`            | `intitle:github`             | Termo no título da página.       |
+| `inurl:palavra`              | `inurl:blog`                 | Termo na URL.                    |
+| `-excluir`                   | `jaguar -carro`              | Exclui resultados indesejados.   |
+| `..` (intervalo)             | `notebook $500..$1000`       | Faixa de preço ou datas.         |
 
-### 8. Pesquisa no Título
-- **Uso:** `intitle:palavra`
-- **Exemplo:** `intitle:JavaScript`
-- **Descrição:** Retorna páginas cujo título contém a palavra especificada.
+---
 
-### 9. Pesquisa na URL
-- **Uso:** `inurl:palavra`
-- **Exemplo:** `inurl:login`
-- **Descrição:** Retorna páginas cuja URL contém a palavra especificada.
+## 🚀 Como Usar Este Guia  
+1. **Para navegadores Chromium**: Use os atalhos para acelerar tarefas diárias.  
+2. **Para pesquisas no Google**: Combine operadores para refinar resultados (ex: `site:github.com "react tutorial" filetype:md`).  
 
-### 10. Pesquisa no Texto da Página
-- **Uso:** `intext:palavra`
-- **Exemplo:** `intext:API REST`
-- **Descrição:** Retorna páginas cujo conteúdo inclui a palavra especificada.
+---
 
-### 11. Pesquisa por Sites Relacionados
-- **Uso:** `related:dominio.com`
-- **Exemplo:** `related:youtube.com`
-- **Descrição:** Encontra sites relacionados ao domínio especificado.
+## 📚 Recursos Adicionais  
+- **Personalização**: Alguns navegadores permitem modificar atalhos em `chrome://extensions/shortcuts`.  
+- **Variantes**: Navegadores como Brave ou Edge podem ter atalhos exclusivos (ex: Brave Rewards).  
 
-### 12. Definição de Termos
-- **Uso:** `define:palavra`
-- **Exemplo:** `define:algoritmo`
-- **Descrição:** Fornece a definição da palavra especificada.
+---
 
-### 13. Pesquisa por Faixa de Preço
-- **Uso:** `produto $X..$Y`
-- **Exemplo:** `smartphone $300..$500`
-- **Descrição:** Retorna produtos dentro da faixa de preço especificada.
+## ✨ Contribuição  
+Encontrou um atalho novo ou operador útil? Abra uma **issue** ou envie um **pull request**!
 
-### 14. Pesquisa por Intervalo de Datas
-- **Uso:** `termo ano1..ano2`
-- **Exemplo:** `tecnologia 2010..2020`
-- **Descrição:** Retorna resultados publicados entre os anos especificados.
+---
 
-### 15. Pesquisa por Proximidade
-- **Uso:** `termo1 AROUND(X) termo2`
-- **Exemplo:** `desenvolvimento AROUND(3) web`
-- **Descrição:** Retorna resultados onde os termos estão próximos um do outro, com até X palavras entre eles.
-
-### 16. Pesquisa por Texto no Link (Âncora)
-- **Uso:** `inanchor:palavra`
-- **Exemplo:** `inanchor:clique aqui`
-- **Descrição:** Retorna páginas que possuem links com o texto âncora especificado.
-
-## Atalhos Úteis no Google Chrome
-
-Para otimizar ainda mais sua experiência de navegação e pesquisa, aqui estão alguns atalhos de teclado úteis no Google Chrome:
-
-- **Abrir uma nova guia e realizar uma pesquisa no Google:**
-  - **Windows/Linux:** Digite o termo de pesquisa na barra de endereço e pressione `Alt + Enter`.
-  - **Mac:** Digite o termo de pesquisa na barra de endereço e pressione `Return + Alt`. :contentReference[oaicite:0]{index=0}
-
-- **Ir para a barra de endereço:**
-  - **Windows/Linux:** `Ctrl + L` ou `Alt + D` ou `F6`.
-  - **Mac:** `Command + L`. :contentReference[oaicite:1]{index=1}
-
-- **Abrir a barra "Localizar" para pesquisar na página atual:**
-  - **Windows/Linux:** `Ctrl + F` ou `F3`.
-  - **Mac:** `Command + F`. :contentReference[oaicite:2]{index=2}
-
-- **Abrir uma janela anônima:**
-  - **Windows/Linux:** `Ctrl + Shift + N`.
-  - **Mac:** `Command + Shift + N`. :contentReference[oaicite:3]{index=3}
-
-- **Reabrir a última guia fechada:**
-  - **Windows/Linux:** `Ctrl + Shift + T`.
-  - **Mac:** `Command + Shift + T`. :contentReference[oaicite:4]{index=4}
-
-- **Alternar entre as guias abertas:**
-  - **Windows/Linux:** `Ctrl + Tab` ou `Ctrl + PgDn`.
-  - **Mac:** `Command + Option + seta para a direita/esquerda`. :contentReference[oaicite:5]{index=5}
-
-- **Fechar a guia atual:**
-  - **Windows/Linux:** `Ctrl + W` ou `Ctrl + F4`.
-  - **Mac:** `Command + W`. :contentReference[oaicite:6]{index=6}
-
-- **Abrir as Ferramentas do Desenvolvedor:**
-  - **Windows/Linux:** `Ctrl + Shift + J` ou `F12`.
-  - **Mac:** `Command + Option + I`. :contentReference[oaicite:7]{index=7}
-
-## Conclusão
-
-O uso desses operadores e atalhos pode economizar tempo e tornar suas buscas e navegação muito mais eficientes. Experimente combiná-los para obter melhores resultados e otimizar sua experiência online!
+### Mudanças Principais:  
+1. **Foco Principal**: Atalhos de navegadores Chromium em destaque, com tabelas organizadas por categoria.  
+2. **Design Simplificado**: Uso de emojis e tabelas para facilitar a consulta rápida.  
+3. **Google como Complemento**: Operadores de pesquisa em seção secundária, porém prática.  
+4. **Chamadas para Ação**: Incentivo à contribuição e dicas de uso.  
